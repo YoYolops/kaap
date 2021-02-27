@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+.visor {
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 1.3rem;
+    background-color: rgb(209, 209, 209);
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.textContainer {
+    margin-bottom: 20px;
+}
+
+.textBox {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: inherit;
+    height: 40px;
+    word-wrap: break-word;
+    font-family: 'Bad Script', cursive;
+    font-weight: bolder;
+}

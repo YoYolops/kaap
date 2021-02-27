@@ -1,0 +1,24 @@
+.vitalButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.vitalBTN {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 0px 10px;
+    align-items: center;
+    background-color: blueviolet;
+    max-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    outline: none;
+    border-style: none;
+
+}
