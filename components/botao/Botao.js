@@ -7,7 +7,6 @@ import aud from '../../assets/click.mp3';
 function Botao (props) {
     const [colorized, setColorized] = useState(false)
     const { changeText, allCleaned } = useContext(TextContext)
-    const som = new Audio(aud)
 
     useEffect(() => {
         setColorized(false)
@@ -16,6 +15,7 @@ function Botao (props) {
     function handleClick(){
         setColorized(true)
         changeText(props.val)
+        const som = new Audio(aud)
         som.play()
     }
 
