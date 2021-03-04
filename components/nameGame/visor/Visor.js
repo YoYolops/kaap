@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import TextContext from '../context/Teclado';
+import TextContext from '../../context/Teclado';
 import styles from './Visor.module.css';
 
 function Visor() {

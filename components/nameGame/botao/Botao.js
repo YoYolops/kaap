@@ -1,8 +1,8 @@
 
-import React, { useState, useContext, useEffect } from 'react';
+import { useState, useContext, useEffect } from 'react';
 import styles from './Botao.module.css';
-import TextContext from '../context/Teclado';
-import aud from '../../assets/click.mp3';
+import TextContext from '../../context/Teclado';
+import aud from '../../../assets/click.mp3';
 
 function Botao (props) {
     const [colorized, setColorized] = useState(false)

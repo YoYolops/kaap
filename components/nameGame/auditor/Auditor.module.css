@@ -1,0 +1,21 @@
+
+.geral {
+    width: 15%;
+    min-width: 60px;
+    height: 40px;
+    align-self: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#padrao {
+    background-color: rgba(0, 255, 234, 0.5);
+}
+
+#errado {
+    background-color: rgb(196, 33, 33);
+}
+
+#certo {
+    background-color: seagreen;
+}

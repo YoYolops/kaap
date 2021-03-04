@@ -1,5 +1,5 @@
 import styles from './Vitals.module.css'
-import TextContext from '../context/Teclado';
+import TextContext from '../../context/Teclado';
 import { useContext } from 'react';
 import { FaBackspace } from 'react-icons/fa';
 import { AiOutlineDelete } from 'react-icons/ai';
