@@ -1,0 +1,69 @@
+.homeBoxContainer {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeBoxContainer header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+    margin: 20px 0px;
+    height: 60px;
+    background-color: #1f77c1;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.vitrine {
+    display: flex;
+    flex-direction: column;
+    background-color: #d6f3f6;
+    margin: 10px;
+}
+
+.screen {
+    min-height: 200px;
+    display: flex;
+}
+
+.panelButton {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.panelButton button {
+    margin: 20px;
+    width: 160px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: inherit;
+    outline-width: 4px;
+    outline-style: ridge;
+    outline-color: black;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.topFoot {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    border-bottom: solid black;
+}
+
+.bottomFoot {
+    margin: 10px 40px;
+}
+
+.bottomFoot p {
+    font-size: .9rem;
+}
