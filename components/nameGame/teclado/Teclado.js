@@ -4,32 +4,32 @@ import styles from './Teclado.module.css';
 function Teclado() {
     return (
         <div className={styles.tecladoContainer}>
-            <Botao exibir='Aa' val="a"/>
-            <Botao exibir='Bb' val="b"/>
-            <Botao exibir='Cc' val="c"/>
-            <Botao exibir='Dd' val="d"/>
-            <Botao exibir='Ee' val="e"/>
-            <Botao exibir='Ff' val="f"/>
-            <Botao exibir='Gg' val="g"/>
-            <Botao exibir='Hh' val="h"/>
-            <Botao exibir='Ii' val="i"/>
-            <Botao exibir='Jj' val="j"/>
-            <Botao exibir='Kk' val="k"/>
-            <Botao exibir='Ll' val="l"/>
-            <Botao exibir='Mm' val="m"/>
-            <Botao exibir='Nn' val="n"/>
-            <Botao exibir='Oo' val="o"/>
-            <Botao exibir='Pp' val="p"/>
-            <Botao exibir='Qq' val="q"/>
-            <Botao exibir='Rr' val="r"/>
-            <Botao exibir='Ss' val="s"/>
-            <Botao exibir='Tt' val="t"/>
-            <Botao exibir='Uu' val="u"/>
-            <Botao exibir='Vv' val="v"/>
-            <Botao exibir='Ww' val="w"/>
-            <Botao exibir='Xx' val="x"/>
-            <Botao exibir='Yy' val="y"/>
-            <Botao exibir='Zz' val="z"/>
+            <Botao exibir='A' val="a" cor='#fe2e3d' />
+            <Botao exibir='B' val="b" cor='#357534' />
+            <Botao exibir='C' val="c" cor='#e4d38e' />
+            <Botao exibir='D' val="d" cor='#d8f2f0' />
+            <Botao exibir='E' val="e" cor='#fa44a2' />
+            <Botao exibir='F' val="f" cor='#65d1cd' />
+            <Botao exibir='G' val="g" cor='#ff9d83' />
+            <Botao exibir='H' val="h" cor='#79d7da' />
+            <Botao exibir='I' val="i" cor='#ffeb3d' />
+            <Botao exibir='J' val="j" cor='#ffd4c5' />
+            <Botao exibir='K' val="k" cor='#fff28b' />
+            <Botao exibir='L' val="l" cor='#fffad8' />
+            <Botao exibir='M' val="m" cor='#d2e38c' />
+            <Botao exibir='N' val="n" cor='#caebd7' />
+            <Botao exibir='O' val="o" cor='#ffc734' />
+            <Botao exibir='P' val="p" cor='#da6936' />
+            <Botao exibir='Q' val="q" cor='#ffd4c5' />
+            <Botao exibir='R' val="r" cor='#ff2e4b' />
+            <Botao exibir='S' val="s" cor='#53a677' />
+            <Botao exibir='T' val="t" cor='#caebd7' />
+            <Botao exibir='U' val="u" cor='#ffadb2' />
+            <Botao exibir='V' val="v" cor='#ebecec' />
+            <Botao exibir='W' val="w" cor='#8ce1f9' />
+            <Botao exibir='X' val="x" cor='#568ec9' />
+            <Botao exibir='Y' val="y" cor='#4aacb3' />
+            <Botao exibir='Z' val="z" cor='#fff28b' />
         </div>
     )
 }

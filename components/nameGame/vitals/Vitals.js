@@ -13,19 +13,19 @@ function Vitals() {
             <button onClick={clearAll} className={styles.vitalBTN}>
                 <AiOutlineDelete
                     size='25px'
-                    color='white'
+                    color='#191919'
                 />
             </button>
-            <button onClick={() => {changeText(' ')}} className={styles.vitalBTN}>
+            <button onClick={() => {changeText(' ')}} className={styles.vitalBTNspace}>
                 <BiSpaceBar
                         size='25px'
-                        color='white'
+                        color='#191919'
                 />
             </button>
             <button onClick={deletar} className={styles.vitalBTN}>
                     <FaBackspace
                         size='25px'
-                        color='white'
+                        color='#191919'
                     />
             </button>
         </div>

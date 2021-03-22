@@ -10,15 +10,24 @@
 
 .vitalBTN {
     display: flex;
-    flex: 1;
     justify-content: center;
     margin: 0px 10px;
     align-items: center;
-    background-color: blueviolet;
-    max-width: 60px;
+    background-color: #fff28b;
+    width: 100px;
     height: 60px;
-    border-radius: 50%;
     outline: none;
     border-style: none;
+}
 
+.vitalBTNspace {
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+    align-items: center;
+    background-color: #fff28b;
+    width: 200px;
+    height: 60px;
+    outline: none;
+    border-style: none;
 }

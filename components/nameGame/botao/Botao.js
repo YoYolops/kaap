@@ -20,9 +20,20 @@ function Botao (props) {
     }
 
     return (
-        <button onClick={handleClick} className={colorized ? styles.activeBtn : styles.unactiveBtn}>
-            {props.exibir}
-        </button>
+        <button onClick={handleClick} className='nameGameBtn'>
+                {props.exibir}
+                <style jsx>
+                    {`
+                        .nameGameBtn {
+                            width: 60px;
+                            height: 60px;
+                            font-size: 1.6rem;
+                            font-weight: bolder;
+                            background-color: ${props.cor};
+                        }
+                    `}
+                </style>
+            </button>
     )
 }
 

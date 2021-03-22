@@ -12,8 +12,8 @@ function NameGame() {
         <TextProvider>
             <div className={styles.nameGameContainer}>
                 <Visor />
-                <Vitals />
                 <Teclado />
+                <Vitals />
                 <Auditor />
             </div>
         </TextProvider>
