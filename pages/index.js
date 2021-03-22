@@ -1,6 +1,5 @@
 import { TextProvider } from '../components/context/Teclado';
 import HomeBox from '../components/homeBox/HomeBox';
-import Image from 'next/image'
 import styles from './Home.module.css';
 
 
@@ -20,14 +19,7 @@ function Home() {
                 `}
             </style>
 
-            <HomeBox>
-                <Image
-                    src="/images/katia.jpeg"
-                    alt="Picture of the author"
-                    width={1280}
-                    height={720}
-                />
-            </HomeBox>
+            <HomeBox />
         </TextProvider>
     )
 }

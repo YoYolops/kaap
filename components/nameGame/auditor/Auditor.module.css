@@ -14,8 +14,10 @@
 
 #errado {
     background-color: rgb(196, 33, 33);
+    color: white;
 }
 
 #certo {
     background-color: seagreen;
+    color: white;
 }
